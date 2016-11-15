@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define FILENAME "./web1913.txt"
+#define FILENAME "./dictiontest.txt" //"./web1913.txt"
 //TODO: USE mmap implementation
 char* parse_for_definition(FILE* dictionary_file, char* word);
 
